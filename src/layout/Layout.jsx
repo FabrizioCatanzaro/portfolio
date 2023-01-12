@@ -2,6 +2,7 @@ import React from 'react'
 import AutoToTop from '../components/AutoToTop/AutoToTop'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
+import './Layout.css'
 
 const Layout = (props) => {
   return (
@@ -11,7 +12,7 @@ const Layout = (props) => {
             {props.children}
         </div>
         <Footer />
-        <AutoToTop />
+        {/* <AutoToTop /> */}
     </>
   )
 }

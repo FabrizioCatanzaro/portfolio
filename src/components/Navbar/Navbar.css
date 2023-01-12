@@ -1,0 +1,24 @@
+.navbar{
+    border: 2px solid red;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    padding: 1%;
+    width: 100%;
+    height: 13vh;
+}
+
+.seccionesNavCont{
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.seccionesNavCont p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
