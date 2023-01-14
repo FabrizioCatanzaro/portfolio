@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logoCont">
-        <img src="" alt="Logo" className="logo" />
+        <img src="./logo-lfcp.png" alt="Logo" className="logo" />
       </div>
       <div className="seccionesNavCont">
         <p>My projects</p>
