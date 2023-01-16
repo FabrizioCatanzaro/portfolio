@@ -14,7 +14,9 @@ body{
 .navbar{
     /* border: 2px solid red; */
     border-radius: 2% 98% 96% 4% / 42% 0% 100% 58% ;
-    background-color: var(--negro-azulado);
+/*     background-color: var(--negro-azulado); */
+background: rgb(18,55,71);
+background: linear-gradient(195deg, rgba(18,55,71,1) 20%, rgba(18,16,23,1) 70%, rgba(18,16,23,1) 97%);
     display: flex;
     justify-content: left;
     gap: 4rem;
