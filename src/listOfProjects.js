@@ -66,7 +66,7 @@ let listOfProjects = [
     {
         id: "MDHL",
         name: "Mighty Ducks Hockey League",
-        date: "OCTOBER 2022",
+        date: "SEPTEMBER 2022",
         image: "",
         technologies: [
             {
@@ -82,7 +82,7 @@ let listOfProjects = [
     {
         id: "AmazingEvents",
         name: "Amazing Events",
-        date: "SEPTEMBER 2022",
+        date: "OCTOBER 2022",
         image: "",
         technologies: [
             {
@@ -97,6 +97,30 @@ let listOfProjects = [
                 name: "JavaScript",
                 image: "https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_javascript_icon_157913.png",
             },
+        ],
+    },
+    {
+        id: "MindyPetshop",
+        name: "Mindy Petshop",
+        date: "OCTOBER 2022",
+        image: "",
+        technologies: [
+            {
+                name: "HTML5",
+                image: "https://cdn.icon-icons.com/icons2/1298/PNG/512/2333390-html-html5-internet-website_85590.png",
+            },
+            {
+                name: "CSS3",
+                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png",
+            },
+            {
+                name: "JavaScript",
+                image: "https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_javascript_icon_157913.png",
+            },
+            {
+                name: "Bootstrap",
+                image: "https://cdn.icon-icons.com/icons2/3206/PNG/512/bootstrap_icon_195906.png",
+            }
         ],
     },
 ]
