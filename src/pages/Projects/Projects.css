@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --negro-azulado: #121017;
     --azul-oscuro: #123747;
@@ -9,7 +15,9 @@
 }
 
 .projects{
-    background-color: var(--celeste-oscuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .dotColored{
@@ -22,3 +30,94 @@
     font-size: 5rem;
 }
 
+.tecnologies{
+    width: 40px;
+}
+
+.eachprojectCont{
+    width: 60%;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.technologiesProject{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.technologiesProject ul{
+    list-style: none;
+}
+
+.firstCont{
+    background-image: linear-gradient(195deg, var(--celeste-oscuro) 20%, rgba(18,16,23,1) 70%, var(--negro-azulado) 97%);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.firstCont p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--turquesa);
+    font-family: var(--fuente-titulo);
+}
+
+.secondCont p, .secondCont2 p, .secondCont3 p, .secondCont4 p, .secondCont5 p{
+    font-size: 2rem;
+    color: var(--turquesa);
+    font-family: var(--fuente-cuerpo);
+    text-shadow: -3px 3px 3px black;
+}
+
+.secondCont{
+    height: 400px;
+    border: 2px solid var(--negro-azulado);
+    background-image: url(../../../public/screen-rftc.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.secondCont2{
+    height: 400px;
+    border: 2px solid var(--negro-azulado);
+    background-image: url(../../../public/screen-mytinerary.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.secondCont3{
+    height: 400px;
+    border: 2px solid var(--negro-azulado);
+    background-image: url(../../../public/screen-mdhl.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.secondCont4{
+    height: 400px;
+    border: 2px solid var(--negro-azulado);
+    background-image: url(../../../public/screen-mindypetshop.png);
+    background-position: 200px 200px;
+    background-size: contain;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}

@@ -12,19 +12,16 @@ const Projects = () => {
   return (
     <div className='projects'>
         <h2 className='titlePage'>Projects I've been working on<span className='dotColored'>.</span></h2>
-        <div className='projectsComponent'>
 
           <div className='eachprojectCont'>
             <div className='firstCont'>
                 <div>
                     <p>{todos[0].name}</p>
                 </div>
-                <div className='tecnologiesProject'>
-                    <ul>
+                <div className='technologiesProject'>
                     {todos[0].technologies.map(dale => 
-                      <li><img src={dale.image} alt='' /></li>
+                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
                     )}
-                    </ul>
                 </div>
             </div>
             <div className='secondCont'>
@@ -32,7 +29,54 @@ const Projects = () => {
             </div>
           </div>
 
-        </div>
+          <div className='eachprojectCont'>
+            <div className='firstCont'>
+                <div>
+                    <p>{todos[1].name}</p>
+                </div>
+                <div className='technologiesProject'>
+                    {todos[1].technologies.map(dale => 
+                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    )}
+                </div>
+            </div>
+            <div className='secondCont2'>
+              <p>{todos[1].date}</p>
+            </div>
+          </div>
+
+          <div className='eachprojectCont'>
+            <div className='firstCont'>
+                <div>
+                    <p>{todos[2].name}</p>
+                </div>
+                <div className='technologiesProject'>
+                    {todos[2].technologies.map(dale => 
+                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    )}
+                </div>
+            </div>
+            <div className='secondCont3'>
+              <p>{todos[2].date}</p>
+            </div>
+          </div>
+
+          <div className='eachprojectCont'>
+            <div className='firstCont'>
+                <div>
+                    <p>{todos[4].name}</p>
+                </div>
+                <div className='technologiesProject'>
+                    {todos[4].technologies.map(dale => 
+                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    )}
+                </div>
+            </div>
+            <div className='secondCont4'>
+              <p>{todos[4].date}</p>
+            </div>
+          </div>
+
     </div>
   )
 }
