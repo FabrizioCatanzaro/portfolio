@@ -6,8 +6,8 @@ import listOfProjects from '../../listOfProjects'
 const Projects = () => {
 
   
-  let todos = listOfProjects.map(e => e)
-  console.log(todos);
+  let allProjects = listOfProjects.map(e => e)
+  console.log(allProjects);
 
   return (
     <div className='projects'>
@@ -16,64 +16,66 @@ const Projects = () => {
           <div className='eachprojectCont'>
             <div className='firstCont'>
                 <div>
-                    <p>{todos[0].name}</p>
+                    <p>{allProjects[0].name}</p>
                 </div>
                 <div className='technologiesProject'>
-                    {todos[0].technologies.map(dale => 
-                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    {allProjects[0].technologies.map(eachTech => 
+                      <img key={eachTech.name} src={eachTech.image} alt='' className='tecnologies' />
                     )}
                 </div>
             </div>
             <div className='secondCont'>
-              <p>{todos[0].date}</p>
+              <p>{allProjects[0].date}</p>
             </div>
+            <p className='descriptionProject'>This is my last work done in a group of 7 people. We worked with agile methods such as SCRUM, having daily meetings every morning and retrospective meetings on the afternoon once a week.</p>
           </div>
 
           <div className='eachprojectCont'>
             <div className='firstCont'>
                 <div>
-                    <p>{todos[1].name}</p>
+                    <p>{allProjects[1].name}</p>
                 </div>
                 <div className='technologiesProject'>
-                    {todos[1].technologies.map(dale => 
-                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    {allProjects[1].technologies.map(eachTech => 
+                      <img key={eachTech.name} src={eachTech.image} alt='' className='tecnologies' />
                     )}
                 </div>
             </div>
             <div className='secondCont2'>
-              <p>{todos[1].date}</p>
+              <p>{allProjects[1].date}</p>
             </div>
+            <p className='descriptionProject'>This app was made to promote the tourism of some cities previously chosen. In this case the website has been done in pairs, using SCRUM agile methodology and finished in 4 sprints.</p>
           </div>
 
           <div className='eachprojectCont'>
             <div className='firstCont'>
                 <div>
-                    <p>{todos[2].name}</p>
+                    <p>{allProjects[2].name}</p>
                 </div>
                 <div className='technologiesProject'>
-                    {todos[2].technologies.map(dale => 
-                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    {allProjects[2].technologies.map(eachTech => 
+                      <img key={eachTech.name} src={eachTech.image} alt='' className='tecnologies' />
                     )}
                 </div>
             </div>
             <div className='secondCont3'>
-              <p>{todos[2].date}</p>
+              <p>{allProjects[2].date}</p>
             </div>
           </div>
 
           <div className='eachprojectCont'>
             <div className='firstCont'>
                 <div>
-                    <p>{todos[4].name}</p>
+                    <p>{allProjects[4].name}</p>
                 </div>
                 <div className='technologiesProject'>
-                    {todos[4].technologies.map(dale => 
-                      <img key={dale.name} src={dale.image} alt='' className='tecnologies' />
+                    {allProjects[4].technologies.map(eachTech => 
+                      <img key={eachTech.name} src={eachTech.image} alt='' className='tecnologies' />
                     )}
                 </div>
             </div>
             <div className='secondCont4'>
-              <p>{todos[4].date}</p>
+              <p>{allProjects[4].date}</p>
             </div>
           </div>
 
