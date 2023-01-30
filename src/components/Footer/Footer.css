@@ -38,12 +38,13 @@
     margin: 0 !important;
 }
 
-.datosFooter ul li{
+.datosFooter ul li a{
     display: flex;
     gap: .5rem;
     text-align: start;
     font-family: var(--fuente-cuerpo);
     color: var(--celeste-claro);
+    text-decoration: none;
 }
 
 .datosFooter img{
