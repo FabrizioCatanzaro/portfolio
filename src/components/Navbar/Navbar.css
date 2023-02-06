@@ -4,7 +4,7 @@
     --celeste-oscuro: #146983;
     --celeste-claro: #1fa4c9;
     --turquesa: #20dad8;
-    --fuente-titulo: 'Vollkorn', serif;
+    --fuente-titulo: 'Montserrat', sans-serif;
     --fuente-cuerpo: 'Exo', sans-serif;
 }
 body{
@@ -13,7 +13,7 @@ body{
 
 .navbar{
     /* border: 2px solid red; */
-    border-radius: 2% 98% 96% 4% / 42% 0% 100% 58% ;
+    border-radius: 0% 98% 96% 0% / 42% 0% 100% 58% ;
 /*     background-color: var(--negro-azulado); */
     background: rgb(18,55,71);
     background: linear-gradient(195deg, rgba(18,55,71,1) 20%, rgba(18,16,23,1) 70%, rgba(18,16,23,1) 97%);
@@ -22,7 +22,8 @@ body{
     gap: 4rem;
     padding: 1%;
     width: 100%;
-    min-height: 13vh;
+    height: 10vh;
+    position: fixed;
 }
 
 .logoCont{
@@ -30,7 +31,7 @@ body{
 }
 
 .logo{
-    width: 80px;
+    width: 60px;
     cursor: pointer;
 }
 
@@ -48,7 +49,7 @@ body{
 
 .seccionesNavCont p{
     color: var(--turquesa);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: center;
     font-weight: bold;
     font-family: var(--fuente-titulo);
