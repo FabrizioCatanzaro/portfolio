@@ -22,6 +22,12 @@
 
 .dotColored{
     color: var(--turquesa);
+    cursor: default;
+}
+
+.dotColored:hover{
+    text-shadow: 4px 4px 3px var(--negro-azulado);
+    transition: ease-in-out .3s;
 }
 
 .titlePage{
