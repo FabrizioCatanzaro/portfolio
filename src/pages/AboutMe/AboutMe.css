@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --negro-azulado: #121017;
+    --azul-oscuro: #123747;
+    --celeste-oscuro: #146983;
+    --celeste-claro: #1fa4c9;
+    --turquesa: #20dad8;
+    --fuente-titulo: 'Montserrat', sans-serif;
+    --fuente-cuerpo: 'Exo', sans-serif;
+}
+
+.aboutMe{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
