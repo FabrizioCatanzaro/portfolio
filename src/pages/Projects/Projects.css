@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-.dotColored{
+/* .dotColored{
     color: var(--turquesa);
     cursor: default;
 }
@@ -34,7 +34,7 @@
     font-family: var(--fuente-titulo);
     font-weight: bold;
     font-size: 5rem;
-}
+} */
 
 .tecnologies{
     width: 40px;

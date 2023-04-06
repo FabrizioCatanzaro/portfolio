@@ -5,18 +5,46 @@
 }
 
 :root{
-    --negro-azulado: #121017;
+    --background: #16161a;
+    --texto-titulo: #fffffe;
+    --texto-parrafo: #94a1b2;
+    --boton: #7f5af0;
+    --boton-texto: #fffffe;
+    --borde: #010101;
+    --resaltado: #7f5af0;
+    --secundario: #72757e;
+    --terciario: #2cb67d;
+    --principal: #fffffe;
+
+    /* --negro-azulado: #121017;
     --azul-oscuro: #123747;
     --celeste-oscuro: #146983;
     --celeste-claro: #1fa4c9;
-    --turquesa: #20dad8;
+    --turquesa: #20dad8; */
     --fuente-titulo: 'Montserrat', sans-serif;
     --fuente-cuerpo: 'Exo', sans-serif;
 }
 
 .aboutMe{
+    background: var(--background);
     width: 100%;
     height: 100vh;
     padding-top: 10vh;
 }
 
+.titlePage{
+    font-family: var(--fuente-titulo);
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--texto-titulo);
+}
+
+.dotColored{
+    color: var(--boton);
+    cursor: default;
+}
+
+.dotColored:hover{
+    text-shadow: 4px 4px 3px var(--borde);
+    transition: ease-in-out .3s;
+}

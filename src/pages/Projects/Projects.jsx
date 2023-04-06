@@ -10,7 +10,7 @@ const Projects = () => {
   console.log(allProjects);
 
   return (
-    <div className='projects'>
+    <section className='projects' id='projects'>
         <h2 className='titlePage'>Projects I've been working on<span className='dotColored'>.</span></h2>
 
           <div className='eachprojectCont'>
@@ -79,7 +79,7 @@ const Projects = () => {
             </div>
           </div>
 
-    </div>
+    </section>
   )
 }
 
