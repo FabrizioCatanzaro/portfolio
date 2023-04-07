@@ -48,3 +48,7 @@
     text-shadow: 4px 4px 3px var(--borde);
     transition: ease-in-out .3s;
 }
+
+.descPage{
+    color: var(--texto-parrafo);
+}
