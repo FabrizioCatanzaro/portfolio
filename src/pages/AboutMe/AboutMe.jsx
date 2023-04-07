@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div className='aboutMe' id='about-me'>
             <div className='titlePage'>Welcome to <span className='dotColored'>Fabrizio's</span> portfolio<span className='dotColored'>.</span></div>
-            <div>Full Stack MERN & Mobile Apps developer</div>
+            <div className='descPage'>Full Stack MERN & Mobile Apps developer</div>
             <div>
                 <ul>
                     <li>HTML5</li>
