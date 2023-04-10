@@ -8,7 +8,7 @@ const Navbar = () => {
   let positionNav = navbar?.[0]?.offsetTop
   let [colorNav, setColorNav] = useState('navbar')
   // let colorNav = 'navbar'
-  console.log(positionNav)
+  // console.log(positionNav)
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset > positionNav){
@@ -17,7 +17,7 @@ const Navbar = () => {
         setColorNav('navbar')
       }
     }
-  }, [])
+  }, [positionNav])
 
   return (
     <div className={colorNav}>
