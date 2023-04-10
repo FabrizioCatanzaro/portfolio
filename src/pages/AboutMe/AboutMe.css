@@ -11,25 +11,32 @@
     --boton: #7f5af0;
     --boton-texto: #fffffe;
     --borde: #010101;
-    --resaltado: #7f5af0;
+    --resaltado: hsl(255, 83%, 65%);
     --secundario: #72757e;
     --terciario: #2cb67d;
     --principal: #fffffe;
-
-    /* --negro-azulado: #121017;
-    --azul-oscuro: #123747;
-    --celeste-oscuro: #146983;
-    --celeste-claro: #1fa4c9;
-    --turquesa: #20dad8; */
     --fuente-titulo: 'Montserrat', sans-serif;
     --fuente-cuerpo: 'Exo', sans-serif;
+
+    /* --color: hsl(0, 0%, 0%);
+    --rojo: hsl(0, 100%, 50%);
+    --verde: hsl(120, 100%, 50%);
+    --amarillo: hsl(60, 100%, 50%);
+
+
+    filter: hue-rotate(255deg) brightness(5395%) */
 }
 
 .aboutMe{
     background: var(--background);
+    background-image: url(https://t3.ftcdn.net/jpg/05/61/96/84/360_F_561968433_L5Yg1OsXiYAzI1GTEa1TGTSfwOo5AwiQ.png);
     width: 100%;
     height: 100vh;
-    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
 }
 
 .titlePage{
@@ -51,4 +58,46 @@
 
 .descPage{
     color: var(--texto-parrafo);
+    font-family: var(--fuente-cuerpo);
+    font-size: 3rem;
+}
+
+.techsCont{
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.techsCont li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.techIcon{
+    font-family: var(--fuente-cuerpo);
+    color: var(--resaltado);
+    cursor: pointer;
+}
+
+.techIcon img, .techIcon svg{
+    width: 80px;
+    height: 80px;
+    color: black;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.techIcon svg:hover{
+    color: var(--resaltado);
+    transition: .2s ease-in-out;
+}
+
+.techIcon:hover{
+    font-weight: bold;
 }
