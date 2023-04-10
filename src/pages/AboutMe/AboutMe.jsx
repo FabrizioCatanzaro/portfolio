@@ -1,13 +1,14 @@
 import React from 'react'
 import './AboutMe.css'
+import 'animate.css'
 
 const AboutMe = () => {
 
     return (
         <div className='aboutMe' id='about-me'>
         <div>
-            <div className='titlePage'>Welcome to <span className='dotColored'>Fabrizio's</span> portfolio<span className='dotColored'>.</span></div>
-            <div className='descPage'>Full Stack MERN & Mobile Apps developer</div>
+            <div className='titlePage animate__animated animate__slideInLeft animate__slow'>Welcome to <span className='dotColored'>Fabrizio's</span> portfolio<span className='dotColored'>.</span></div>
+            <div className='descPage animate__animated animate__slideInUp animate__slow'>Full Stack MERN & Mobile Apps developer</div>
         </div>
             <ul className='techsCont'>
                 <li className='techIcon'>

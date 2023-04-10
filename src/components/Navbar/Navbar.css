@@ -82,3 +82,11 @@
     cursor: pointer;
     backdrop-filter: blur(10px);
 }
+
+#linkNav{
+    text-decoration: none;
+}
+
+#linkNav:focus{
+    color: var(--boton-texto)
+}

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './Navbar.css'
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 
 const Navbar = () => {
   let navbar = document.getElementsByClassName('navbar')
@@ -25,9 +26,9 @@ const Navbar = () => {
         <img src="./logo-lfcp.png" alt="Logo" className="logo" />
       </div>
       <div className="seccionesNavCont">
-        <p>My projects</p>
-        <p>About me</p>
-        <p>Contact</p>
+        <p><Link smooth to='#projects' id="linkNav">My projects</Link></p>
+        <p><Link smooth to='#about-me' id="linkNav">About me</Link></p>
+        <p><Link smooth to='#contact' id="linkNav">Contact</Link></p>
       </div>
     </div>
   );
