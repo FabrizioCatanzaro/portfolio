@@ -5,125 +5,141 @@
 }
 
 :root{
-    --negro-azulado: #121017;
-    --azul-oscuro: #123747;
-    --celeste-oscuro: #146983;
-    --celeste-claro: #1fa4c9;
-    --turquesa: #20dad8;
+    --background: #16161a;
+    --texto-titulo: #fffffe;
+    --texto-parrafo: #94a1b2;
+    --boton: #7f5af0;
+    --boton-texto: #fffffe;
+    --borde: #010101;
+    --resaltado: #815cf0;
+    --secundario: #72757e;
+    --terciario: #2cb67d;
+    --principal: #fffffe;
     --fuente-titulo: 'Montserrat', sans-serif;
     --fuente-cuerpo: 'Exo', sans-serif;
+
+    /* --color: hsl(0, 0%, 0%);
+    --rojo: hsl(0, 100%, 50%);
+    --verde: hsl(120, 100%, 50%);
+    --amarillo: hsl(60, 100%, 50%);
+
+
+    filter: hue-rotate(255deg) brightness(5395%) */
 }
 
 .projects{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    background-color: var(--secundario);
+    /* background-image: url(https://t3.ftcdn.net/jpg/05/61/96/84/360_F_561968433_L5Yg1OsXiYAzI1GTEa1TGTSfwOo5AwiQ.png); */
+    background-position: center;
+    background-size: cover;
 }
 
-/* .dotColored{
-    color: var(--turquesa);
-    cursor: default;
-}
-
-.dotColored:hover{
-    text-shadow: 4px 4px 3px var(--negro-azulado);
-    transition: ease-in-out .3s;
-}
-
-.titlePage{
+.titlePageProjects{
     font-family: var(--fuente-titulo);
     font-weight: bold;
     font-size: 5rem;
-} */
+    color: var(--background);
+}
 
 .tecnologies{
     width: 40px;
 }
 
+.projectsCont{
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
 .eachprojectCont{
-    width: 60%;
-    padding-top: 3rem;
-    padding-bottom: 4rem;
+    width: 450px;
+    height: 300px;
 }
 
 .technologiesProject{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
 }
 
-.technologiesProject ul{
-    list-style: none;
+.technologiesProject img{
+    width: 30px;
 }
 
 .firstCont{
-    background-image: linear-gradient(195deg, var(--celeste-oscuro) 20%, rgba(18,16,23,1) 70%, var(--negro-azulado) 97%);
+    background-color: var(--boton);
     display: flex;
     width: 100%;
+    height: 25%;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 5px;
+    border: 2px solid var(--borde);
+    border-bottom: 0;
+}
+
+.firstCont:hover{
+    background-color: var(--terciario);
 }
 
 .firstCont p{
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    color: var(--turquesa);
-    font-family: var(--fuente-titulo);
+    color: var(--principal);
+    font-family: var(--fuente-cuerpo);
 }
 
-.secondCont p, .secondCont2 p, .secondCont3 p, .secondCont4 p, .secondCont5 p{
-    font-size: 2rem;
-    color: var(--turquesa);
+.secondCont p{
+    font-size: .9rem;
+    color: var(--resaltado);
     font-family: var(--fuente-cuerpo);
-    text-shadow: -3px 3px 3px black;
+    padding: 5px;
+    background-color: var(--background);
+    position: absolute;
+}
+
+.secondCont p:hover{
+    color: var(--terciario);
 }
 
 .secondCont{
-    height: 400px;
-    border: 2px solid var(--negro-azulado);
-    background-image: url(../../../public/screen-rftc.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    height: 65%;
+    border: 2px solid var(--borde);
     display: flex;
     justify-content: end;
     align-items: flex-end;
 }
 
-.secondCont2{
-    height: 400px;
-    border: 2px solid var(--negro-azulado);
-    background-image: url(../../../public/screen-mytinerary.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
+.secondCont img{
+    height: 100%;
+    width: 100%;
 }
 
-.secondCont3{
-    height: 400px;
-    border: 2px solid var(--negro-azulado);
-    background-image: url(../../../public/screen-mdhl.png);
-    background-position: center;
-    background-size: contain;
-    background-attachment: fixed;
+.thirdCont{
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+    border: 2px solid var(--borde);
+    border-top: 0;
+    background-color: var(--background);
 }
 
-.secondCont4{
-    height: 400px;
-    border: 2px solid var(--negro-azulado);
-    background-image: url(../../../public/screen-mindypetshop.png);
-    background-position: 200px 200px;
-    background-size: contain;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
+.thirdCont svg{
+    color: var(--resaltado);
+}
+
+.thirdCont svg:nth-child(2):hover, .thirdCont svg:nth-child(1):hover{
+    color: var(--terciario);
+    cursor: pointer;
 }
