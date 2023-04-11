@@ -7,7 +7,7 @@ let listOfProjects = [
         technologies: [
             {
                 name: "MongoDB",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/dbs-mongodb_icon-icons.com_50910.png",
+                image: "https://images.freeimages.com/fic/images/icons/2773/pictonic_free/512/dbs_mongodb.png",
             },
             {
                 name: "ExpressJS",
@@ -15,7 +15,7 @@ let listOfProjects = [
             },
             {
                 name: "ReactJS",
-                image: "https://cdn.icon-icons.com/icons2/3207/PNG/512/react_icon_196203.png",
+                image: "https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png",
             },
             {
                 name: "NodeJS",
@@ -23,13 +23,15 @@ let listOfProjects = [
             },
             {
                 name: "Redux Toolkit",
-                image: "https://cdn.icon-icons.com/icons2/2389/PNG/512/redux_logo_icon_144932.png",
+                image: "https://static-00.iconduck.com/assets.00/brand-redux-icon-512x487-wnhku92g.png",
             },
             {
                 name: "CSS3",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png",
+                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
             },
         ],
+        repo:'https://github.com/FabrizioCatanzaro/RFTC-front',
+        deploy: 'https://rftc.vercel.app/',
     },
     {
         id: "MyTinerary",
@@ -39,7 +41,7 @@ let listOfProjects = [
         technologies: [
             {
                 name: "MongoDB",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/dbs-mongodb_icon-icons.com_50910.png",
+                image: "https://images.freeimages.com/fic/images/icons/2773/pictonic_free/512/dbs_mongodb.png",
             },
             {
                 name: "ExpressJS",
@@ -47,7 +49,7 @@ let listOfProjects = [
             },
             {
                 name: "ReactJS",
-                image: "https://cdn.icon-icons.com/icons2/3207/PNG/512/react_icon_196203.png",
+                image: "https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png",
             },
             {
                 name: "NodeJS",
@@ -55,73 +57,81 @@ let listOfProjects = [
             },
             {
                 name: "Redux Toolkit",
-                image: "https://cdn.icon-icons.com/icons2/2389/PNG/512/redux_logo_icon_144932.png",
+                image: "https://static-00.iconduck.com/assets.00/brand-redux-icon-512x487-wnhku92g.png",
             },
             {
                 name: "CSS3",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png",
+                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
             },
         ],
+        repo:'https://github.com/FabrizioCatanzaro/MyTinerary-front',
+        deploy: 'https://my-tinerary-team-x.vercel.app',
     },
     {
         id: "MDHL",
         name: "Mighty Ducks Hockey League",
         date: "SEPTEMBER 2022",
-        image: "",
+        image: "https://media.discordapp.net/attachments/1027305203210403861/1095421562603196517/MDHL.png?width=1389&height=683",
         technologies: [
             {
                 name: "HTML5",
-                image: "https://cdn.icon-icons.com/icons2/1298/PNG/512/2333390-html-html5-internet-website_85590.png",
+                image: "https://cdn-icons-png.flaticon.com/512/152/152843.png",
             },
             {
                 name: "CSS3",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png",
+                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
             },
         ],
+        repo:'https://github.com/FabrizioCatanzaro/mdhl2-catanzaro',
+        deploy: 'https://fabriziocatanzaro.github.io/mdhl2-catanzaro/',
     },
     {
         id: "AmazingEvents",
         name: "Amazing Events",
         date: "OCTOBER 2022",
-        image: "",
+        image: "https://media.discordapp.net/attachments/1027305203210403861/1095422226079166505/amazingevents.png?width=1391&height=683",
         technologies: [
             {
                 name: "HTML5",
-                image: "https://cdn.icon-icons.com/icons2/1298/PNG/512/2333390-html-html5-internet-website_85590.png",
+                image: "https://cdn-icons-png.flaticon.com/512/152/152843.png",
             },
             {
                 name: "CSS3",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png",
+                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
             },
             {
                 name: "JavaScript",
-                image: "https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_javascript_icon_157913.png",
+                image: "https://img.icons8.com/ios/512/javascript--v1.png",
             },
         ],
+        repo:'https://github.com/FabrizioCatanzaro/amazing-events',
+        deploy: 'https://fabriziocatanzaro.github.io/amazing-events/',
     },
     {
         id: "MindyPetshop",
         name: "Mindy Petshop",
         date: "OCTOBER 2022",
-        image: "",
+        image: "https://media.discordapp.net/attachments/1027305203210403861/1095422740527337613/mindy.png?width=1372&height=683",
         technologies: [
             {
                 name: "HTML5",
-                image: "https://cdn.icon-icons.com/icons2/1298/PNG/512/2333390-html-html5-internet-website_85590.png",
+                image: "https://cdn-icons-png.flaticon.com/512/152/152843.png",
             },
             {
                 name: "CSS3",
-                image: "https://cdn.icon-icons.com/icons2/512/PNG/512/css3-02_icon-icons.com_50917.png",
+                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
             },
             {
                 name: "JavaScript",
-                image: "https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_javascript_icon_157913.png",
+                image: "https://img.icons8.com/ios/512/javascript--v1.png",
             },
             {
                 name: "Bootstrap",
-                image: "https://cdn.icon-icons.com/icons2/3206/PNG/512/bootstrap_icon_195906.png",
+                image: "https://cdn4.iconfinder.com/data/icons/vector-brand-logos/40/Bootstrap-512.png",
             }
         ],
+        repo:'https://github.com/FabrizioCatanzaro/Mindy-Petshop',
+        deploy: 'https://fabriziocatanzaro.github.io/Mindy-Petshop/',
     },
 ]
 
