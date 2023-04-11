@@ -3,6 +3,7 @@ import AutoToTop from '../components/AutoToTop/AutoToTop'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 import './Layout.css'
+import ScrollToTheTop from '../components/ScrollToTheTop/ScrollToTheTop'
 
 const Layout = (props) => {
   return (
@@ -13,6 +14,7 @@ const Layout = (props) => {
         </div>
         <Footer />
         <AutoToTop />
+        <ScrollToTheTop />
     </>
   )
 }

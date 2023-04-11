@@ -17,14 +17,6 @@
     --principal: #fffffe;
     --fuente-titulo: 'Montserrat', sans-serif;
     --fuente-cuerpo: 'Exo', sans-serif;
-
-    /* --color: hsl(0, 0%, 0%);
-    --rojo: hsl(0, 100%, 50%);
-    --verde: hsl(120, 100%, 50%);
-    --amarillo: hsl(60, 100%, 50%);
-
-
-    filter: hue-rotate(255deg) brightness(5395%) */
 }
 
 .aboutMe{
@@ -37,6 +29,21 @@
     justify-content: center;
     align-items: center;
     gap: 6rem;
+}
+
+.aboutMe::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-bottom: 6vh solid var(--secundario);
+    border-left: 99vw solid transparent;
+}
+
+.titlesPageAbout{
+    z-index: 1;
 }
 
 .titlePage{
@@ -78,6 +85,7 @@
     justify-content: center;
     align-items: center;
     width: 70%;
+    z-index: 1;
 }
 
 .techsCont li{

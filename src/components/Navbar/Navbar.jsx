@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div className={colorNav}>
       <div className="logoCont">
-        <img src="./logo-lfcp.png" alt="Logo" className="logo" />
+        <a href="#"><img src="./logo-lfcp.png" alt="Logo" className="logo" /></a>
       </div>
       <div className="seccionesNavCont">
         <p><Link smooth to='#projects' id="linkNav">My projects</Link></p>
