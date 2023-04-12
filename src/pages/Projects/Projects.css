@@ -17,14 +17,6 @@
     --principal: #fffffe;
     --fuente-titulo: 'Montserrat', sans-serif;
     --fuente-cuerpo: 'Exo', sans-serif;
-
-    /* --color: hsl(0, 0%, 0%);
-    --rojo: hsl(0, 100%, 50%);
-    --verde: hsl(120, 100%, 50%);
-    --amarillo: hsl(60, 100%, 50%);
-
-
-    filter: hue-rotate(255deg) brightness(5395%) */
 }
 
 .projects{
@@ -47,9 +39,6 @@
     color: var(--background);
 }
 
-.tecnologies{
-    width: 40px;
-}
 
 .projectsCont{
     display: flex;
@@ -58,88 +47,4 @@
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 5rem;
-}
-
-.eachprojectCont{
-    width: 450px;
-    height: 300px;
-}
-
-.technologiesProject{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
-.technologiesProject img{
-    width: 30px;
-}
-
-.firstCont{
-    background-color: var(--boton);
-    display: flex;
-    width: 100%;
-    height: 25%;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-    border: 2px solid var(--borde);
-    border-bottom: 0;
-}
-
-.firstCont:hover{
-    background-color: var(--terciario);
-}
-
-.firstCont p{
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--principal);
-    font-family: var(--fuente-cuerpo);
-}
-
-.secondCont p{
-    font-size: .9rem;
-    color: var(--resaltado);
-    font-family: var(--fuente-cuerpo);
-    padding: 5px;
-    background-color: var(--background);
-    position: absolute;
-}
-
-.secondCont p:hover{
-    color: var(--terciario);
-}
-
-.secondCont{
-    height: 65%;
-    border: 2px solid var(--borde);
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-}
-
-.secondCont img{
-    height: 100%;
-    width: 100%;
-}
-
-.thirdCont{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 10%;
-    border: 2px solid var(--borde);
-    border-top: 0;
-    background-color: var(--background);
-}
-
-.thirdCont svg{
-    color: var(--resaltado);
-}
-
-.thirdCont svg:nth-child(2):hover, .thirdCont svg:nth-child(1):hover{
-    color: var(--terciario);
-    cursor: pointer;
 }

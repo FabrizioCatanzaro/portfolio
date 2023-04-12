@@ -11,14 +11,16 @@ const Navbar = () => {
   // let colorNav = 'navbar'
   // console.log(positionNav)
   useEffect(() => {
-    window.onscroll = () => {
-      if (window.pageYOffset > positionNav){
-        setColorNav('move')
-      } else {
-        setColorNav('navbar')
-      }
+    const handleNavbarVisibility = () => {
+      window.pageYOffset > 100 ? setColorNav('move') : setColorNav('navbar')
     }
-  }, [positionNav])
+
+    window.addEventListener('scroll', handleNavbarVisibility)
+
+    return () => {
+      window.removeEventListener('scroll', handleNavbarVisibility)
+  }
+  }, [])
 
   return (
     <div className={colorNav}>
