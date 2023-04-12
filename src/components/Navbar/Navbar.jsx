@@ -1,73 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import './Navbar.css'
+import { HashLink as Link } from "react-router-hash-link";
+
 
 const Navbar = () => {
+  let navbar = document.getElementsByClassName('navbar')
+  let navbar2 = document.getElementsByClassName('move')
+  let positionNav = navbar?.[0]?.offsetTop
+  let [colorNav, setColorNav] = useState('navbar')
+  // let colorNav = 'navbar'
+  // console.log(positionNav)
+  useEffect(() => {
+    window.onscroll = () => {
+      if (window.pageYOffset > positionNav){
+        setColorNav('move')
+      } else {
+        setColorNav('navbar')
+      }
+    }
+  }, [positionNav])
+
   return (
-    <div>
-      <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">
-            LFCP Portfolio
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-light"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  All my projects
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Amazing Events
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Mighty Ducks
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      My Tinerary (Team x)
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Retro Football TC
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div className={colorNav}>
+      <div className="logoCont">
+        <a href="#"><img src="./logo-lfcp.png" alt="Logo" className="logo" /></a>
+      </div>
+      <div className="seccionesNavCont">
+        <p><Link smooth to='#projects' id="linkNav">My projects</Link></p>
+        <p><Link smooth to='#about-me' id="linkNav">About me</Link></p>
+        <p><Link smooth to='#contact' id="linkNav">Contact</Link></p>
+      </div>
     </div>
   );
 };

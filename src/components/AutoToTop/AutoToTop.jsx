@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 export default function AutoToTop() {
 
 const { pathname } = useLocation()
@@ -11,6 +11,6 @@ useEffect(() => {
 }, [pathname])
 
 return (
-    null
+    <></>
 )
 }

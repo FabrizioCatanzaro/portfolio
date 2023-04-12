@@ -1,0 +1,100 @@
+:root{
+    --background: #16161a;
+    --texto-titulo: #fffffe;
+    --texto-parrafo: #94a1b2;
+    --boton: #7f5af0;
+    --boton-texto: #fffffe;
+    --borde: #010101;
+    --resaltado: #7f5af0;
+    --secundario: #72757e;
+    --terciario: #2cb67d;
+    --principal: #fffffe;
+
+    /* --negro-azulado: #121017;
+    --azul-oscuro: #123747;
+    --celeste-oscuro: #146983;
+    --celeste-claro: #1fa4c9;
+    --turquesa: #20dad8; */
+    --fuente-titulo: 'Montserrat', sans-serif;
+    --fuente-cuerpo: 'Exo', sans-serif;
+}
+
+.move{
+    border-radius: 0% 98% 96% 0% / 42% 0% 100% 58% ;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    padding: 1%;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    background-color: transparent;
+    /* backdrop-filter: blur(5px); */
+    transition: 1s ease-in-out;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    border-radius: 0% 98% 96% 0% / 42% 0% 100% 58% ;
+/*     background-color: var(--negro-azulado); */
+    background: var(--borde);
+    display: flex;
+    justify-content: left;
+    gap: 4rem;
+    padding: 1%;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    transition: 1s ease-in-out;
+    z-index: 10;
+}
+
+.logoCont{
+    width: 10%;
+}
+
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.4, 1.4);
+    transition: 1.5s ease-in-out;
+}
+
+.seccionesNavCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.seccionesNavCont p{
+    background-color: var(--borde);
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--resaltado);
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fuente-titulo);
+    margin: 0 0 0 0 !important;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+
+#linkNav{
+    text-decoration: none;
+    color: var(--resaltado);
+    transition: .4s ease-in-out;
+}
+
+#linkNav:hover{
+    color: var(--terciario);
+    transition: .4s ease-in-out;
+}
+
+#linkNav:focus{
+    color: var(--boton-texto)
+}

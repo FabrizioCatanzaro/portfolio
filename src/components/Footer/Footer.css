@@ -1,0 +1,75 @@
+:root{
+    --background: #16161a;
+    --texto-titulo: #fffffe;
+    --texto-parrafo: #94a1b2;
+    --boton: #7f5af0;
+    --boton-texto: #fffffe;
+    --borde: #010101;
+    --resaltado: #815cf0;
+    --secundario: #72757e;
+    --terciario: #2cb67d;
+    --principal: #fffffe;
+    --fuente-titulo: 'Montserrat', sans-serif;
+    --fuente-cuerpo: 'Exo', sans-serif;
+}
+
+.footer{
+    width: 100%;
+    border-top: 2px solid var(--borde);
+    min-height: 30vh;
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoFooterCont{
+    width: 250px;
+}
+
+.logoFooter{
+    width: 100%;
+}
+
+.datosFooter{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datosFooter ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin: 0 !important;
+}
+
+.datosFooter ul li a{
+    display: flex;
+    gap: .5rem;
+    text-align: start;
+    font-family: var(--fuente-cuerpo);
+    color: var(--resaltado);
+    text-decoration: none;
+    transition: .1s ease-in-out;
+}
+
+.datosFooter ul li a:hover{
+    color: var(--terciario);
+    transition: .1s ease-in-out;
+}
+
+.datosFooter img{
+    width: 25px;
+}
+
+.logoFooterDerechaCont{
+    width: 250px;
+}
+
+.logoFooterDerecha{
+    width: 70%;
+    cursor: pointer;
+}
