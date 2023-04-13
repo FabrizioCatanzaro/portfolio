@@ -20,8 +20,7 @@
 }
 
 .aboutMe{
-    background: var(--background);
-    background-image: url(https://t3.ftcdn.net/jpg/05/61/96/84/360_F_561968433_L5Yg1OsXiYAzI1GTEa1TGTSfwOo5AwiQ.png);
+    background-color: var(--secundario);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -31,7 +30,7 @@
     gap: 6rem;
 }
 
-.aboutMe::after{
+/* .aboutMe::after{
     position: absolute;
     content: '';
     top: 0;
@@ -40,34 +39,7 @@
     right: 0;
     border-bottom: 6vh solid var(--secundario);
     border-left: 99vw solid transparent;
-}
-
-.titlesPageAbout{
-    z-index: 1;
-}
-
-.titlePage{
-    font-family: var(--fuente-titulo);
-    font-weight: bold;
-    font-size: 5rem;
-    color: var(--texto-titulo);
-}
-
-.dotColored{
-    color: var(--boton);
-    cursor: default;
-}
-
-.dotColored:hover{
-    text-shadow: 4px 4px 3px var(--borde);
-    transition: ease-in-out .3s;
-}
-
-.descPage{
-    color: var(--texto-parrafo);
-    font-family: var(--fuente-cuerpo);
-    font-size: 3rem;
-}
+} */
 
 .techsCont{
     display: flex;
