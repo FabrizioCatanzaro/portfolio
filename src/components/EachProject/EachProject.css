@@ -14,11 +14,11 @@
     gap: 5px;
 }
 
-.technologiesProject img{
-    width: 30px;
+.technologiesProject i{
+    color: var(--borde);
 }
 
-.technologiesProject img:hover{
+.technologiesProject i:hover{
     transform: scale(1.1);
 }
 
