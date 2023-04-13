@@ -1,5 +1,6 @@
 import React from 'react'
 import './EachProject.css'
+import { BoxIconElement } from 'boxicons'
 
 const EachProject = (props) => {
     const {name, techs, image, date, deploy, repo} = props
@@ -12,7 +13,10 @@ const EachProject = (props) => {
                 </div>
                 <div className='technologiesProject'>
                     {techs.map(eachTech => 
-                    <a href={eachTech.docu} target='_blank' rel='noreferrer' ><img key={eachTech.name} src={eachTech.image} alt='**' className='tecnologies' /></a>
+                    <a href={eachTech.docu} target='_blank' rel='noreferrer' >
+                        {/* <img key={eachTech.name} src={eachTech.image} alt='**' className='tecnologies' /> */}
+                        <i class={`${eachTech.image} bx-md`}></i>
+                    </a>
                     )}
                 </div>
             </div>
