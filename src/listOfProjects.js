@@ -7,32 +7,32 @@ let listOfProjects = [
         technologies: [
             {
                 name: "MongoDB",
-                image: "https://images.freeimages.com/fic/images/icons/2773/pictonic_free/512/dbs_mongodb.png",
+                image: "bx bxl-mongodb",
                 docu: 'https://www.mongodb.com/docs/'
             },
             {
                 name: "ExpressJS",
-                image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/express_original_logo_icon_146527.png",
+                image: "bx bx-code",
                 docu: 'https://expressjs.com/'
             },
             {
                 name: "ReactJS",
-                image: "https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png",
+                image: "bx bxl-react",
                 docu: 'https://react.dev/'
             },
             {
                 name: "NodeJS",
-                image: "https://cdn.icon-icons.com/icons2/2648/PNG/512/dev_node_icon_160853.png",
+                image: "bx bxl-nodejs",
                 docu: 'https://nodejs.org/en/docs'
             },
             {
                 name: "Redux Toolkit",
-                image: "https://static-00.iconduck.com/assets.00/brand-redux-icon-512x487-wnhku92g.png",
+                image: "bx bxl-redux",
                 docu: 'https://redux-toolkit.js.org/'
             },
             {
                 name: "CSS3",
-                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
+                image: "bx bxl-css3",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
             },
         ],
@@ -47,32 +47,32 @@ let listOfProjects = [
         technologies: [
             {
                 name: "MongoDB",
-                image: "https://images.freeimages.com/fic/images/icons/2773/pictonic_free/512/dbs_mongodb.png",
+                image: "bx bxl-mongodb",
                 docu: 'https://www.mongodb.com/docs/'
             },
             {
                 name: "ExpressJS",
-                image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/express_original_logo_icon_146527.png",
+                image: "bx bx-code",
                 docu: 'https://expressjs.com/'
             },
             {
                 name: "ReactJS",
-                image: "https://static-00.iconduck.com/assets.00/react-icon-512x456-5xl7nmtw.png",
+                image: "bx bxl-react",
                 docu: 'https://react.dev/'
             },
             {
                 name: "NodeJS",
-                image: "https://cdn.icon-icons.com/icons2/2648/PNG/512/dev_node_icon_160853.png",
+                image: "bx bxl-nodejs",
                 docu: 'https://nodejs.org/en/docs'
             },
             {
                 name: "Redux Toolkit",
-                image: "https://static-00.iconduck.com/assets.00/brand-redux-icon-512x487-wnhku92g.png",
+                image: "bx bxl-redux",
                 docu: 'https://redux-toolkit.js.org/'
             },
             {
                 name: "CSS3",
-                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
+                image: "bx bxl-css3",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
             },
         ],
@@ -87,12 +87,12 @@ let listOfProjects = [
         technologies: [
             {
                 name: "HTML5",
-                image: "https://cdn-icons-png.flaticon.com/512/152/152843.png",
+                image: "bx bxl-html5",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
             },
             {
                 name: "CSS3",
-                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
+                image: "bx bxl-css3",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
             },
         ],
@@ -107,17 +107,17 @@ let listOfProjects = [
         technologies: [
             {
                 name: "HTML5",
-                image: "https://cdn-icons-png.flaticon.com/512/152/152843.png",
+                image: "bx bxl-html5",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
             },
             {
                 name: "CSS3",
-                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
+                image: "bx bxl-css3",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
             },
             {
                 name: "JavaScript",
-                image: "https://img.icons8.com/ios/512/javascript--v1.png",
+                image: "bx bxl-javascript",
                 docu: 'https://devdocs.io/javascript/'
             },
         ],
@@ -132,22 +132,22 @@ let listOfProjects = [
         technologies: [
             {
                 name: "HTML5",
-                image: "https://cdn-icons-png.flaticon.com/512/152/152843.png",
+                image: "bx bxl-html5",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
             },
             {
                 name: "CSS3",
-                image: "https://cdn-icons-png.flaticon.com/512/732/732007.png",
+                image: "bx bxl-css3",
                 docu: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
             },
             {
                 name: "JavaScript",
-                image: "https://img.icons8.com/ios/512/javascript--v1.png",
+                image: "bx bxl-javascript",
                 docu: 'https://devdocs.io/javascript/'
             },
             {
                 name: "Bootstrap",
-                image: "https://cdn4.iconfinder.com/data/icons/vector-brand-logos/40/Bootstrap-512.png",
+                image: "bx bxl-bootstrap",
                 docu: 'https://getbootstrap.com/docs/5.2/getting-started/introduction/'
             }
         ],
