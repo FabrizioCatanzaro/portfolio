@@ -6,11 +6,7 @@ const AboutMe = () => {
 
     return (
         <div className='aboutMe' id='about-me'>
-            <div className='titlesPageAbout'>
-                <div className='titlePage animate__animated animate__slideInLeft animate__slow'>Welcome to <span className='dotColored'>Fabrizio's</span> portfolio<span className='dotColored'>.</span></div>
-                <div className='descPage animate__animated animate__slideInUp animate__slow'>Full Stack MERN & Mobile Apps developer</div>
-            </div>
-            <ul className='techsCont'>
+            <ul className='techsCont animate__animated animate__slideInDown animate__slow'>
                 <li className='techIcon'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
