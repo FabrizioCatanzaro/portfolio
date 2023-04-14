@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Intro.css'
 import 'animate.css'
 
 const Intro = () => {
+    let [cvCont, setCvCont] = useState('closedCont')
+
+    const openCvCont = () => {
+        cvCont === 'closedCont' ? setCvCont('openCont') : setCvCont('closedCont')
+    }
+
     return (
         <div className='intro' id='intro'>
             <div className='titlesPageAbout'>
@@ -11,11 +17,16 @@ const Intro = () => {
             </div>
             <div className='infoIntroCont'>
                 <div className='myPictureCont'>
-                    <img src='../my-picture.jpg' className='myPicImg' alt="It's me, Fabri" />
+                    <img src='./assets/img/my-picture.jpg' className='myPicImg' alt="It's me, Fabri" />
                 </div>
                 <div className='facts'>
-                    <span className='textoIntro12 anim-typewriter12'>22 years old</span>
-                    <span className='textoIntro23 anim-typewriter23'>Buenos Aires, Argentina</span>
+                    <span className='textIntro anim-typewriter12'>22 years old</span>
+                    <span className='textIntro anim-typewriter23'>Buenos Aires, Argentina</span>
+                    <span onClick={() => openCvCont()} className='btnIntro anim-typewriter23'>Download CV</span>
+                    <div className={cvCont}>
+                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Fabrizio_Catanzaro-Web_Developer.pdf' id='linkCv'>English CV</a>
+                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Fabrizio_Catanzaro-Desarrollador_Web.pdf' id='linkCv'>Spanish CV</a>
+                    </div>
                 </div>
             </div>
         </div>

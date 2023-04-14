@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='logoFooterCont'>
-        <img src='./nombrecompleto-lfcp.png' alt='nombre completo' className='logoFooter' />
+        <img src='./assets/img/nombrecompleto-lfcp.png' alt='nombre completo' className='logoFooter' />
       </div>
       <div className='datosFooter'>
         <ul>
@@ -18,7 +18,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className='logoFooterDerechaCont'>
-        <img src='./logo-lfcp.png' alt='nombre completo' className='logoFooterDerecha' />
+        <img src='./assets/img/logo-lfcp.png' alt='nombre completo' className='logoFooterDerecha' />
       </div>
     </div>
   )

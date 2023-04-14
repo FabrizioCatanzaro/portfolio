@@ -75,6 +75,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: start;
+    z-index: 70;
 }
 
 
@@ -101,6 +102,55 @@
 
 .myPictureCont:hover{
     filter: brightness(1);
+}
+
+.textIntro{
+    font-family: var(--fuente-titulo);
+    font-size: 1.4rem;
+    color: var(--texto-parrafo);
+}
+
+
+.btnIntro{
+    margin: 20px 0;
+    padding: 10px 7px;
+    border-top: 1px solid var(--secundario);
+    font-family: var(--fuente-cuerpo);
+    font-size: 1.4rem;
+    color: var(--boton);
+    background-color: var(--borde);
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 0 0 8px 8px;
+}
+
+.btnIntro:hover{
+    color: var(--terciario);
+}
+
+.closedCont{
+    display: none;
+}
+
+.openCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+#linkCv{
+    border-radius: 8px;
+    color: var(--texto-titulo);
+    padding: 8px;
+    text-decoration: none;
+    font-family: var(--fuente-cuerpo);
+    font-size: 1rem;
+    background-color: var(--boton);
+}
+
+#linkCv:hover{
+    color: var(--background);
 }
 
 @keyframes float {
