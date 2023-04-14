@@ -28,7 +28,19 @@
     justify-content: center;
     align-items: center;
     gap: 6rem;
+
 }
+
+/* .aboutMe>svg{
+    position: absolute;
+    width: 60%;
+    transform: rotate(120deg);
+}
+
+.aboutMe>svg>path{
+    color: var(--background);
+    opacity: .2;
+} */
 
 /* .aboutMe::after{
     position: absolute;
@@ -63,22 +75,29 @@
     font-family: var(--fuente-cuerpo);
     color: var(--resaltado);
     cursor: pointer;
+    color: var(--resaltado);
+    background-color: #35363aa2;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
 }
 
 .techIcon img, .techIcon svg{
     width: 80px;
     height: 80px;
     color: black;
-    transition: .2s ease-in-out;
+    transition: .3s ease-in-out;
     cursor: pointer;
 }
 
 .techIcon svg:hover, .techIcon img:hover{
-    transform: scale(1.2);
-    color: var(--resaltado);
-    transition: .2s ease-in-out;
+    transform: scale(1.15);
+    transition: all .3s ease-in-out;
 }
 
 .techIcon:hover{
+    background-color: var(--resaltado);
     font-weight: bold;
+    color: var(--background);
+    transition: all .3s ease-in-out;
 }
