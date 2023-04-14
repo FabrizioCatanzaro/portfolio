@@ -1,16 +1,18 @@
 import React from 'react'
 import './AboutMe.css'
 import 'animate.css'
+// import expressPic from '../../../public/assets/img/icon-express.png'
+// import nodePic from '../../../public/assets/img/icon-node.png'
+// import postmanPic from '../../../public/assets/img/icon-postman.png'
 
 const AboutMe = () => {
 
     return (
         <div className='aboutMe' id='about-me'>
-            <div className='titlesPageAbout'>
-                <div className='titlePage animate__animated animate__slideInLeft animate__slow'>Welcome to <span className='dotColored'>Fabrizio's</span> portfolio<span className='dotColored'>.</span></div>
-                <div className='descPage animate__animated animate__slideInUp animate__slow'>Full Stack MERN & Mobile Apps developer</div>
-            </div>
-            <ul className='techsCont'>
+            {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill='currentColor' d="M40.8,-62.3C49.8,-57.7,52,-41.2,50.5,-27.9C49,-14.6,43.9,-4.5,43.2,6.8C42.5,18.1,46.2,30.7,43.5,42.6C40.8,54.4,31.7,65.7,20.5,68.1C9.4,70.6,-3.8,64.3,-13.3,56.5C-22.8,48.6,-28.6,39.2,-34.3,30.8C-39.9,22.3,-45.4,14.8,-54.7,3C-64,-8.8,-77.1,-25,-74.1,-34.8C-71.1,-44.6,-52.1,-48,-37,-49.9C-22,-51.7,-11,-52.1,2.4,-55.9C15.9,-59.7,31.8,-66.9,40.8,-62.3Z" transform="translate(100 100)" />
+            </svg> */}
+            <ul className='techsCont animate__animated animate__slideInDown animate__slow'>
                 <li className='techIcon'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -45,7 +47,7 @@ const AboutMe = () => {
                     MongoDB
                 </li>
                 <li className='techIcon' >
-                    <img src='./icon-express.png' id='icono-foto' alt='express' />
+                    <img src='./assets/img/icon-express.png' id='icono-foto' alt='express' />
                     Express
                 </li>
                 <li className='techIcon'>
@@ -74,7 +76,7 @@ const AboutMe = () => {
                     Redux
                 </li>
                 <li className='techIcon'>
-                    <img src='./icon-node.png' alt='node' id='icono-foto' />
+                    <img src='./assets/img/icon-node.png' alt='node' id='icono-foto' />
                     NodeJS
                 </li>
                 <li className='techIcon'>
@@ -100,7 +102,7 @@ const AboutMe = () => {
                     Bootstrap
                 </li>
                 <li className='techIcon'>
-                    <img src='./icon-postman.png' alt='Postman' id='icono-foto' />
+                    <img src='./assets/img/icon-postman.png' alt='Postman' id='icono-foto' />
                     Postman
                 </li>
                 <li className='techIcon'>

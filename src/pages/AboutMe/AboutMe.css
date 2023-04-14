@@ -20,8 +20,7 @@
 }
 
 .aboutMe{
-    background: var(--background);
-    background-image: url(https://t3.ftcdn.net/jpg/05/61/96/84/360_F_561968433_L5Yg1OsXiYAzI1GTEa1TGTSfwOo5AwiQ.png);
+    background-color: var(--secundario);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -29,9 +28,21 @@
     justify-content: center;
     align-items: center;
     gap: 6rem;
+
 }
 
-.aboutMe::after{
+/* .aboutMe>svg{
+    position: absolute;
+    width: 60%;
+    transform: rotate(120deg);
+}
+
+.aboutMe>svg>path{
+    color: var(--background);
+    opacity: .2;
+} */
+
+/* .aboutMe::after{
     position: absolute;
     content: '';
     top: 0;
@@ -40,34 +51,7 @@
     right: 0;
     border-bottom: 6vh solid var(--secundario);
     border-left: 99vw solid transparent;
-}
-
-.titlesPageAbout{
-    z-index: 1;
-}
-
-.titlePage{
-    font-family: var(--fuente-titulo);
-    font-weight: bold;
-    font-size: 5rem;
-    color: var(--texto-titulo);
-}
-
-.dotColored{
-    color: var(--boton);
-    cursor: default;
-}
-
-.dotColored:hover{
-    text-shadow: 4px 4px 3px var(--borde);
-    transition: ease-in-out .3s;
-}
-
-.descPage{
-    color: var(--texto-parrafo);
-    font-family: var(--fuente-cuerpo);
-    font-size: 3rem;
-}
+} */
 
 .techsCont{
     display: flex;
@@ -91,22 +75,29 @@
     font-family: var(--fuente-cuerpo);
     color: var(--resaltado);
     cursor: pointer;
+    color: var(--resaltado);
+    background-color: #35363aa2;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
 }
 
 .techIcon img, .techIcon svg{
     width: 80px;
     height: 80px;
     color: black;
-    transition: .2s ease-in-out;
+    transition: .3s ease-in-out;
     cursor: pointer;
 }
 
 .techIcon svg:hover, .techIcon img:hover{
-    transform: scale(1.2);
-    color: var(--resaltado);
-    transition: .2s ease-in-out;
+    transform: scale(1.15);
+    transition: all .3s ease-in-out;
 }
 
 .techIcon:hover{
+    background-color: var(--resaltado);
     font-weight: bold;
+    color: var(--background);
+    transition: all .3s ease-in-out;
 }
