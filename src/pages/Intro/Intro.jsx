@@ -22,7 +22,7 @@ const Intro = () => {
                 <div className='facts'>
                     <span className='textIntro anim-typewriter12'>22 years old</span>
                     <span className='textIntro anim-typewriter23'>Buenos Aires, Argentina</span>
-                    <span onClick={() => openCvCont()} className='btnIntro anim-typewriter23'>{ cvCont === 'closedCont' ? 'Download CV' : 'Close Window'}</span>
+                    <span onClick={() => openCvCont()} className='btnIntro anim-typewriter23'>{ cvCont === 'closedCont' ? 'Download CV' : `Hide options`}</span>
                     <div className={cvCont}>
                         <a download='CV Fabrizio Catanzaro' href='./assets/docs/Fabrizio_Catanzaro-Web_Developer.pdf' id='linkCv'>English CV</a>
                         <a download='CV Fabrizio Catanzaro' href='./assets/docs/Fabrizio_Catanzaro-Desarrollador_Web.pdf' id='linkCv'>Spanish CV</a>
