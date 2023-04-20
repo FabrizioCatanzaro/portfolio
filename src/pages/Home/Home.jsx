@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import AboutMe from '../AboutMe/AboutMe'
 import Projects from '../Projects/Projects'
 import Intro from '../Intro/Intro'
+import Contact from '../Contact/Contact'
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
             <Intro />
             <AboutMe/>
             <Projects />
+            <Contact />
         </div>
     )
 }

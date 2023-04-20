@@ -9,9 +9,7 @@ const AboutMe = () => {
 
     return (
         <div className='aboutMe' id='about-me'>
-            {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                <path fill='currentColor' d="M40.8,-62.3C49.8,-57.7,52,-41.2,50.5,-27.9C49,-14.6,43.9,-4.5,43.2,6.8C42.5,18.1,46.2,30.7,43.5,42.6C40.8,54.4,31.7,65.7,20.5,68.1C9.4,70.6,-3.8,64.3,-13.3,56.5C-22.8,48.6,-28.6,39.2,-34.3,30.8C-39.9,22.3,-45.4,14.8,-54.7,3C-64,-8.8,-77.1,-25,-74.1,-34.8C-71.1,-44.6,-52.1,-48,-37,-49.9C-22,-51.7,-11,-52.1,2.4,-55.9C15.9,-59.7,31.8,-66.9,40.8,-62.3Z" transform="translate(100 100)" />
-            </svg> */}
+            <h2 className='titlePageAbout'>My <span className='dotColored'>dev</span> skills<span className='dotColored'>.</span></h2>
             <ul className='techsCont animate__animated animate__slideInDown animate__slow'>
                 <li className='techIcon'>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
