@@ -1,0 +1,102 @@
+:root{
+    --background: #16161a;
+    --texto-titulo: #fffffe;
+    --texto-parrafo: #94a1b2;
+    --boton: #7f5af0;
+    --boton-texto: #fffffe;
+    --borde: #010101;
+    --resaltado: #815cf0;
+    --secundario: #72757e;
+    --terciario: #2cb67d;
+    --principal: #fffffe;
+    --fuente-titulo: 'Montserrat', sans-serif;
+    --fuente-cuerpo: 'Exo', sans-serif;
+}
+
+.contact{
+    background: rgb(114,117,126);
+    background: linear-gradient(180deg, rgba(114,117,126,1) 0%, rgba(99,102,110,1) 38%, rgba(22,22,26,1) 85%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 5rem 0;
+    padding-bottom: 10rem;
+}
+
+.titlePageContact{
+    font-family: var(--fuente-titulo);
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--background);
+}
+
+.formContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    background-color: var(--secundario);
+    width: 45%;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid var(--background);
+}
+
+.formContact label{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.formContact label span{
+    font-size: 1.2rem;
+    font-family: var(--fuente-cuerpo);
+    color: var(--borde);
+}
+
+.formContact label input{
+    width: 100%;
+    height: 30px;
+    color: var(--terciario);
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: var(--fuente-cuerpo);
+    border-radius: 20px 20px 0 20px;
+    border: 1px solid var(--background);
+    background-color: var(--background);
+}
+
+.formContact label textarea{
+    min-width: 25%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    height: 75px;
+    max-height: 200px;
+    padding: 7px;
+    font-size: 1.1rem;
+    font-family: var(--fuente-cuerpo);
+    border-radius: 20px 20px 0 20px;
+    border: 1px solid var(--background);
+    background-color: var(--background);
+    color: var(--terciario);
+}
+
+#btnSendContact{
+    background-color: var(--background);
+    color: var(--terciario);
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    font-family: var(--fuente-cuerpo);
+    border: 1px solid var(--borde);
+    border-radius: 20px 20px 0 20px;
+    cursor: pointer;
+}
+
+#btnSendContact:hover{
+    background-color: var(--borde);
+}

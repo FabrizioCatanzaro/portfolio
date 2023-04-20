@@ -24,8 +24,8 @@ const Navbar = () => {
         <a href="#"><img src="./assets/img/logo-lfcp.png" alt="Logo" className="logo" /></a>
       </div>
       <div className="seccionesNavCont">
-        <p><Link smooth to='#projects' id="linkNav">My projects</Link></p>
         <p><Link smooth to='#about-me' id="linkNav">About me</Link></p>
+        <p><Link smooth to='#projects' id="linkNav">My projects</Link></p>
         <p><Link smooth to='#contact' id="linkNav">Contact</Link></p>
       </div>
     </div>
