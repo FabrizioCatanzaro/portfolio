@@ -15,7 +15,7 @@
 
 .footer{
     width: 100%;
-    border-top: 1px solid var(--borde);
+    /* border-top: 1px solid var(--borde); */
     min-height: 30vh;
     background-color: var(--background);
     display: flex;
@@ -72,6 +72,23 @@
 .logoFooterDerecha{
     width: 70%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .logoFooterCont{
+        width: 200px;
+    }
+
+    .logoFooterDerechaCont{
+        display: none;
+    }
+
+    .datosFooter{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 560px){

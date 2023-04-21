@@ -46,7 +46,9 @@
 
 .dotColored{
     color: var(--boton);
+    text-shadow: 1px 1px 3px var(--borde);
     cursor: default;
+    transition: ease-in-out .3s;
 }
 
 .dotColored:hover{
@@ -197,10 +199,6 @@
 
     .descPage{
         font-size: .8rem;
-    }
-
-    .dotColored{
-        color: var(--terciario);
     }
 
     .textIntro{

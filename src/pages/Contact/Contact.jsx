@@ -28,7 +28,7 @@ const Contact = () => {
                     <input type='email' name='email' required />
                 </label>
                 <label> 
-                    <span>Tell me, in a few words, why you are looking for my contact</span>
+                    <span>Tell me, in a few words, the purpose of your message</span>
                     <textarea name='Message' required />
                 </label>
                 <input type="hidden" name="_autoresponse" value={autoResponse} />

@@ -67,14 +67,14 @@
     font-family: var(--fuente-cuerpo);
     border-radius: 20px 20px 0 20px;
     border: 1px solid var(--background);
-    background-color: var(--background);
+    background-color: var(--background) !important;
 }
 
 .formContact label textarea{
-    min-width: 25%;
+    min-width: 85%;
     width: 100%;
     max-width: 100%;
-    min-height: 30px;
+    min-height: 50px;
     height: 75px;
     max-height: 200px;
     padding: 7px;
@@ -101,6 +101,29 @@
     background-color: var(--borde);
 }
 
+@media screen and (max-width: 1000px){
+    .titlePageContact{
+        font-size: 3rem;
+        width: 90%;
+    }
+
+    .contact{
+        gap: 3rem;
+        padding: 0;
+        padding-bottom: 5rem;
+    }
+
+    .formContact{
+        gap: 1rem;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .formContact label span{
+        text-align: start;
+    }
+}
+
 @media screen and (max-width: 560px){
     .titlePageContact{
         font-size: 1.5rem;
@@ -108,7 +131,7 @@
 
     .contact{
         gap: 2rem;
-        padding: 1rem 0;
+        padding: 0;
         padding-bottom: 4rem;
     }
 
