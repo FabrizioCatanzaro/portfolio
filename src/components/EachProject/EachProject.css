@@ -101,9 +101,17 @@
     width: 40px;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1000px){
+    .secondCont img{
+        filter: none;
+    }
+}
+
 @media screen and (max-width: 560px){
     .eachprojectCont{
-        width: 280px;
+        width: 90%;
         height: 200px;
     }
 
@@ -117,6 +125,11 @@
 
     .secondCont{
         height: 55%;
+    }
+
+    .secondCont img{
+        object-fit: cover;
+        object-position: center;
     }
 
     .technologiesProject{
