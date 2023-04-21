@@ -36,9 +36,6 @@
     border-left: 99vw solid transparent;
 }
 
-.titlesPageAbout{
-    z-index: 1;
-}
 
 .titlePage{
     font-family: var(--fuente-titulo);
@@ -166,5 +163,47 @@
     100% {
         box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
         transform: translatey(0px);
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .titlePage{
+        font-size: 3rem;
+    }
+
+    .descPage{
+        font-size: 1.5rem;
+    }
+
+    .infoIntroCont{
+        flex-direction: column;
+    }
+
+    .myPictureCont{
+        width: 200px;
+        height: 200px;
+    }
+
+    .facts{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .titlePage{
+        font-size: 1.5rem;
+    }
+
+    .descPage{
+        font-size: .8rem;
+    }
+
+    .dotColored{
+        color: var(--terciario);
+    }
+
+    .textIntro{
+        font-size: 1rem;
     }
 }

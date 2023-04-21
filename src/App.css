@@ -46,6 +46,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;       /* roundness of the scroll thumb */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

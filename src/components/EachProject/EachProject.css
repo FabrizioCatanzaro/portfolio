@@ -31,7 +31,6 @@
     align-items: center;
     text-align: center;
     padding: 5px;
-    /* border: 2px solid var(--borde); */
     border-bottom: 2px solid var(--borde);
 }
 
@@ -85,10 +84,8 @@
     justify-content: space-evenly;
     align-items: center;
     height: 10%;
-    /* border: 2px solid var(--borde); */
     border-top: 0;
     background-color: var(--background);
-    /* border-top: 2px solid var(--borde); */
 }
 
 .thirdCont svg{
@@ -102,4 +99,35 @@
 
 .tecnologies{
     width: 40px;
+}
+
+@media screen and (max-width: 560px){
+    .eachprojectCont{
+        width: 280px;
+        height: 200px;
+    }
+
+    .firstCont{
+        height: 30%;
+    }
+
+    .firstCont p{
+        font-size: .7rem;
+    }
+
+    .secondCont{
+        height: 55%;
+    }
+
+    .technologiesProject{
+        gap: 2px;
+    }
+
+    .technologiesProject a i{
+        width: 30px;
+    }
+
+    .thirdCont{
+        height: 15%;
+    }
 }
