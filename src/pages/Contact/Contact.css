@@ -100,3 +100,44 @@
 #btnSendContact:hover{
     background-color: var(--borde);
 }
+
+@media screen and (max-width: 560px){
+    .titlePageContact{
+        font-size: 1.5rem;
+    }
+
+    .contact{
+        gap: 2rem;
+        padding: 1rem 0;
+        padding-bottom: 4rem;
+    }
+
+    .formContact{
+        gap: 1rem;
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .formContact label span{
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .formContact label input{
+        padding: 10px;
+        font-size: .9rem;
+    }
+
+    .formContact label textarea{
+        min-width: 100%;
+        width: 100%;
+        height: 200px;
+        min-height: 200px;
+        font-size: .9rem;
+    }
+
+    #btnSendContact{
+        padding: 8px 20px;
+        font-size: 1rem;
+    }
+}

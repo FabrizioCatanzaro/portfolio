@@ -28,6 +28,11 @@ const Navbar = () => {
         <p><Link smooth to='#projects' id="linkNav">My projects</Link></p>
         <p><Link smooth to='#contact' id="linkNav">Contact</Link></p>
       </div>
+      <div className="seccionesNavResponsive">
+        <Link smooth to='#about-me' id="linkNav"><i class='bx bxs-user'></i></Link>
+        <Link smooth to='#projects' id="linkNav"><i class='bx bxs-briefcase' ></i></Link>
+        <Link smooth to='#contact' id="linkNav"><i class='bx bxs-comment-dots' ></i></Link>
+      </div>
     </div>
   );
 };
