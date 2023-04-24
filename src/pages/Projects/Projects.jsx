@@ -11,7 +11,11 @@ const Projects = () => {
 
   return (
     <section className='projects' id='projects'>
-        <h2 className='titlePageProjects'>Projects I've been <span className='dotColored'>working</span> on<span className='dotColored'>.</span></h2>
+        <h2 
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className='titlePageProjects'
+        >Projects I've been <span className='dotColored'>working</span> on<span className='dotColored'>.</span></h2>
         <div className='projectsCont'>
           {allProjects?.map( each => 
             <EachProject key={each} name={each.name} techs={each.technologies} image={each.image} date={each.date} deploy={each.deploy} repo={each.repo} />
