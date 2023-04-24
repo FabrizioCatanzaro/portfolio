@@ -17,7 +17,11 @@ const Contact = () => {
     `
     return (
         <section className='contact' id='contact'>
-            <h2 className='titlePageContact'>Let's <span className='dotColored'>get in touch</span> with me<span className='dotColored'>.</span></h2>
+            <h2 
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className='titlePageContact'
+            >Let's <span className='dotColored'>get in touch</span> with me<span className='dotColored'>.</span></h2>
             <form className='formContact' action='https://formsubmit.co/fabriziocatanzaro1@gmail.com' method='POST' onSubmit={() => alert('enviado')}>
                 <label>
                     <span>Full name</span>

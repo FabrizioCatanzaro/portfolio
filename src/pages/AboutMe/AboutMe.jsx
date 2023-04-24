@@ -6,7 +6,11 @@ const AboutMe = () => {
 
     return (
         <div className='aboutMe' id='about-me'>
-            <h2 className='titlePageAbout'>My <span className='dotColored'>tech</span> skills<span className='dotColored'>.</span></h2>
+            <h2 
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className='titlePageAbout'
+            >My <span className='dotColored'>tech</span> skills<span className='dotColored'>.</span></h2>
             <ul className='techsCont animate__animated animate__slideInDown animate__slow'>
                 <li>
                     <a className='techIcon' href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank' rel='noreferrer'>
@@ -147,7 +151,11 @@ const AboutMe = () => {
                     </a>
                 </li>
             </ul>
-            <h2 className='titlePageAbout'>My <span className='dotColored'>soft</span> skills<span className='dotColored'>.</span></h2>
+            <h2 
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                className='titlePageAbout'
+            >My <span className='dotColored'>soft</span> skills<span className='dotColored'>.</span></h2>
             <ul className='softSkillsCont'>
                 <li className='softIcon'>
                     <img src='./assets/img/communicative.png' alt='Communicative icon' />
