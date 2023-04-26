@@ -60,7 +60,6 @@
 
 .secondCont{
     height: 65%;
-    /* border: 2px solid var(--borde); */
     display: flex;
     justify-content: end;
     align-items: flex-end;

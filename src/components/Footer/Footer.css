@@ -15,7 +15,6 @@
 
 .footer{
     width: 100%;
-    /* border-top: 1px solid var(--borde); */
     min-height: 30vh;
     background-color: var(--background);
     display: flex;
