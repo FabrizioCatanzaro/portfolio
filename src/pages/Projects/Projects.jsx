@@ -7,7 +7,7 @@ const Projects = () => {
 
   
   let allProjects = listOfProjects.map(e => e)
-  console.log(allProjects);
+  // console.log(allProjects);
 
   return (
     <section className='projects' id='projects'>
