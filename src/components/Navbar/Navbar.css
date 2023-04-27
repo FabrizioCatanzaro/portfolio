@@ -58,7 +58,7 @@
     transition: 1.5s ease-in-out;
 }
 
-.seccionesNavCont{
+.pagesNavCont{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@
 
 }
 
-.seccionesNavCont p{
+.pagesNavCont p{
     background-color: rgba(0, 0, 0, 0.455);
     padding: 10px;
     border-radius: 5px;
@@ -95,7 +95,7 @@
     color: var(--boton-texto)
 }
 
-.seccionesNavResponsive{
+.pagesNavContResponsive{
     display: none;
 }
 
@@ -119,18 +119,18 @@
         width: 50px;
     }
 
-    .seccionesNavCont{
+    .pagesNavCont{
         display: none;
     }
 
-    .seccionesNavResponsive{
+    .pagesNavContResponsive{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1rem;
     }
 
-    .seccionesNavResponsive i{
+    .pagesNavContResponsive i{
         color: var(--resaltado);
         font-size: 30px;
         background-color: var(--background);

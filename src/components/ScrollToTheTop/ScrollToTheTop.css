@@ -1,4 +1,4 @@
-.BtnToTop{
+.btnToTop{
     position:fixed;
     bottom:2%;
     right:33px;
@@ -8,7 +8,7 @@
     z-index: 1000;
 }
 
-.BtnToTop:hover{
+.btnToTop:hover{
     transform: translateY(-.25rem)
 }
 
