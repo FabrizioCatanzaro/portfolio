@@ -10,7 +10,7 @@ const EachProject = (props) => {
                 <div>
                     <p>{name}</p>
                 </div>
-                <div className='technologiesProject'>
+                <div className='technologiesCont'>
                     {techs.map(eachTech => 
                     <a href={eachTech.docu} target='_blank' rel='noreferrer' >
                         <i class={`${eachTech.image} bx-md`}></i>

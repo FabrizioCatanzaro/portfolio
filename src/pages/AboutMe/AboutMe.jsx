@@ -5,7 +5,7 @@ import 'animate.css'
 const AboutMe = () => {
 
     return (
-        <div className='aboutMe' id='about-me'>
+        <section className='aboutMe' id='about-me'>
             <h2 
                 data-aos="fade-right"
                 data-aos-duration="1000"
@@ -182,7 +182,7 @@ const AboutMe = () => {
                     Detailed
                 </li>
             </ul>
-        </div>
+        </section>
     )
 }
 

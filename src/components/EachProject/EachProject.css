@@ -8,17 +8,17 @@
     border: 2px solid var(--terciario);
 }
 
-.technologiesProject{
+.technologiesCont{
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
 
-.technologiesProject i{
+.technologiesCont i{
     color: var(--borde);
 }
 
-.technologiesProject i:hover{
+.technologiesCont i:hover{
     transform: scale(1.1);
 }
 
@@ -131,11 +131,11 @@
         object-position: center;
     }
 
-    .technologiesProject{
+    .technologiesCont{
         gap: 2px;
     }
 
-    .technologiesProject a i{
+    .technologiesCont a i{
         width: 30px;
     }
 

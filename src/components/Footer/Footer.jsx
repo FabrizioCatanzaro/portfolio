@@ -3,11 +3,11 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      <div className='logoFooterCont'>
+    <section className='footer'>
+      <div className='left-logoFooterCont'>
         <img src='./assets/img/nombrecompleto-lfcp.png' alt='nombre completo' className='logoFooter' />
       </div>
-      <div className='datosFooter'>
+      <div className='factsFooterCont'>
         <ul>
           <li><a href='https://github.com/FabrizioCatanzaro' target='_blank' rel='noreferrer' ><img src='https://cdn-icons-png.flaticon.com/512/1051/1051326.png' alt='Github' />/FabrizioCatanzaro</a></li>
           <li><a href='https://www.linkedin.com/in/luciano-fabrizio-catanzaro-pfahler/' target='_blank' rel='noreferrer'><img src='https://cdn-icons-png.flaticon.com/512/1384/1384014.png' alt='Linkedin' />Luciano Fabrizio Catanzaro Pfahler</a></li>
@@ -17,10 +17,10 @@ const Footer = () => {
           <li><a href='https://goo.gl/maps/iNtTN9y8TUE8rSFP6' target='_blank' rel='noreferrer'><img src='https://cdn-icons-png.flaticon.com/512/4296/4296521.png' alt='Locación' />Buenos Aires, Argentina</a></li>
         </ul>
       </div>
-      <div className='logoFooterDerechaCont'>
+      <div className='right-logoFooterCont'>
         <img src='./assets/img/logo-lfcp.png' alt='nombre completo' className='logoFooterDerecha' />
       </div>
-    </div>
+    </section>
   )
 }
 

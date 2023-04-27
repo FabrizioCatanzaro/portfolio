@@ -10,7 +10,7 @@ const Intro = () => {
     }
 
     return (
-        <div className='intro' id='intro'>
+        <section className='intro' id='intro'>
             <div className='titlesPageAbout'>
                 <div className='titlePage animate__animated animate__slideInLeft animate__slow'>Welcome to <span className='dotColored'>Fabrizio's</span> portfolio<span className='dotColored'>.</span></div>
                 <div className='descPage animate__animated animate__slideInUp animate__slow'>Full Stack MERN & Mobile Apps developer</div>
@@ -29,7 +29,7 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
