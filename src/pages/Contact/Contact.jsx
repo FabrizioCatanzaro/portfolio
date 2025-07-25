@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <section className='contact' id='contact'>
             <h2 className='titlePageContact'>Let's <span className='dotColored'>get in touch</span> with me<span className='dotColored'>.</span></h2>
-            <form className='formContact' action='https://formsubmit.co/fabriziocatanzaro1@gmail.com' method='POST' onSubmit={() => alert('enviado')}>
+            <form className='formContact' action='https://formsubmit.co/fabriziocatanzaro1@gmail.com' method='POST' onSubmit={() => alert('Succesfully sent!')}>
                 <label>
                     <span>Full name</span>
                     <input type='text' name='Name and surname' required />

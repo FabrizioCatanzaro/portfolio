@@ -1,9 +1,84 @@
 let listOfProjects = [
     {
+        id: "Kleopatra",
+        name: "Kleopatra Joyas",
+        date: "APRIL 2025",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-kleopatra.png?alt=media&token=21c944a0-156d-4a11-bd8a-2ad59f62e174",
+        technologies: [
+            {
+                name: "ReactJS",
+                image: "bx bxl-react",
+                docu: 'https://react.dev/'
+            },
+            {
+                name: "Strapi",
+                image: "bx bx-code",
+                docu: 'https://docs.strapi.io/'
+            },
+            {
+                name: "NextJS",
+                image: "bx bx-code-alt",
+                docu: 'https://nextjs.org/docs'
+            },
+            {
+                name: "Tailwind",
+                image: "bx bxl-tailwind-css",
+                docu: 'https://tailwindcss.com/docs/installation/using-vite'
+            },
+            {
+                name: "Vercel",
+                image: "bxl bx-vercel",
+                docu: 'https://vercel.com/docs'
+            },
+        ],
+        repo:'https://github.com/FabrizioCatanzaro/kleopatra-fe',
+        deploy: 'https://kleopatra.vercel.app/',
+    },
+    {
+        id: "TeachMe",
+        name: "Teach Me",
+        date: "OCTOBER 2024",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-teachme.png?alt=media&token=45d70d12-120a-4710-abc4-4956a50f7f5c",
+        technologies: [
+            {
+                name: "SQL",
+                image: "bx bx-data",
+                docu: 'https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16'
+            },
+            {
+                name: "ExpressJS",
+                image: "bx bx-code",
+                docu: 'https://expressjs.com/'
+            },
+            {
+                name: "Netlify",
+                image: "bx bxl-netlify",
+                docu: 'https://docs.netlify.com/'
+            },
+            {
+                name: "NodeJS",
+                image: "bx bxl-nodejs",
+                docu: 'https://nodejs.org/en/docs'
+            },
+            {
+                name: "Figma",
+                image: "bx bxl-figma",
+                docu: 'https://help.figma.com/hc/en-us'
+            },
+            {
+                name: "CSS3",
+                image: "bx bxl-css3",
+                docu: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
+            },
+        ],
+        repo:'https://github.com/FabrizioCatanzaro/TeachMe',
+        deploy: 'https://teachme-learn.netlify.app/',
+    },
+    {
         id: "Salute",
         name: "Salute Drinks",
         date: "MARCH 2023",
-        image: "https://media.discordapp.net/attachments/1027305203210403861/1099008235756851330/salute.png?width=1395&height=683",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-salute.png?alt=media&token=f62f6b80-3394-4d5e-b0e0-bdab1c21eacb",
         technologies: [
             {
                 name: "MongoDB",
@@ -43,7 +118,7 @@ let listOfProjects = [
         id: "RFTC",
         name: "Retro Football Team Clothing",
         date: "DECEMBER 2022",
-        image: "https://media.discordapp.net/attachments/1027305203210403861/1064682516742688808/screen-rftc.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-rftc.png?alt=media&token=b49dc19a-241c-488c-8521-6df23b8c4af3",
         technologies: [
             {
                 name: "MongoDB",
@@ -83,7 +158,7 @@ let listOfProjects = [
         id: "MyTinerary",
         name: "My Tinerary",
         date: "NOVEMBER 2022",
-        image: "https://cdn.discordapp.com/attachments/1027305203210403861/1064682531410157629/screen-mytinerary.png",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-mytinerary.png?alt=media&token=bc8089d7-db9f-4fdb-94f0-44d6b306c447",
         technologies: [
             {
                 name: "MongoDB",
@@ -123,7 +198,7 @@ let listOfProjects = [
         id: "AmazingEvents",
         name: "Amazing Events",
         date: "OCTOBER 2022",
-        image: "https://media.discordapp.net/attachments/1027305203210403861/1095422226079166505/amazingevents.png?width=1391&height=683",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-amazing-events.png?alt=media&token=b3bf6cb0-51cf-44a4-877b-eeffff52cdce",
         technologies: [
             {
                 name: "HTML5",
@@ -148,7 +223,7 @@ let listOfProjects = [
         id: "MindyPetshop",
         name: "Mindy Petshop",
         date: "OCTOBER 2022",
-        image: "https://media.discordapp.net/attachments/1027305203210403861/1095422740527337613/mindy.png?width=1372&height=683",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-mindy.png?alt=media&token=a893b5ed-0b1c-4e02-a77e-74a9bfe6b6be",
         technologies: [
             {
                 name: "HTML5",
@@ -178,7 +253,7 @@ let listOfProjects = [
         id: "MDHL",
         name: "Mighty Ducks Hockey League",
         date: "SEPTEMBER 2022",
-        image: "https://media.discordapp.net/attachments/1027305203210403861/1095421562603196517/MDHL.png?width=1389&height=683",
+        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-mdhl.png?alt=media&token=daea323b-0943-4662-aa81-aa1f68c79635",
         technologies: [
             {
                 name: "HTML5",

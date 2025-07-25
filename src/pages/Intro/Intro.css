@@ -93,8 +93,9 @@
 .myPicImg{
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-radius: 20%;
-    filter: brightness(.3);
+    filter: brightness(.6);
     animation: float 6s ease-in-out infinite;
     z-index: 55;
 }
@@ -158,8 +159,8 @@
         transform: translatey(0px);
     }
     50% {
-        box-shadow: 0 25px 15px 0px var(--secundario);
-        transform: translatey(-15px);
+        box-shadow: 0 20px 15px 0px var(--secundario);
+        transform: translatey(-10px);
         filter: brightness(.9);
     }
     100% {
