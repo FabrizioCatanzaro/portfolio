@@ -29,9 +29,9 @@ const Navbar = () => {
         <p><Link smooth to='#contact' id="linkNav">Contact</Link></p>
       </div>
       <div className="seccionesNavResponsive">
-        <Link smooth to='#about-me' id="linkNav"><i class='bx bxs-terminal'></i></Link>
-        <Link smooth to='#projects' id="linkNav"><i class='bx bxs-briefcase' ></i></Link>
-        <Link smooth to='#contact' id="linkNav"><i class='bx bxs-comment-dots' ></i></Link>
+        <Link smooth to='#about-me' id="linkNav"><i className='bx bxs-terminal'></i></Link>
+        <Link smooth to='#projects' id="linkNav"><i className='bx bxs-briefcase' ></i></Link>
+        <Link smooth to='#contact' id="linkNav"><i className='bx bxs-comment-dots' ></i></Link>
       </div>
     </div>
   );

@@ -112,8 +112,8 @@
 
 @media screen and (max-width: 560px){
     .eachprojectCont{
-        width: 90%;
-        height: 200px;
+        width: 80%;
+        height: 250px;
     }
 
     .firstCont{
@@ -121,7 +121,7 @@
     }
 
     .firstCont p{
-        font-size: .7rem;
+        font-size: 1rem;
     }
 
     .secondCont{
