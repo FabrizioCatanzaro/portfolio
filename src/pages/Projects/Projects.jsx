@@ -7,14 +7,14 @@ const Projects = () => {
 
   
   let allProjects = listOfProjects.map(e => e)
-  // console.log(allProjects);
+  console.log(allProjects);
 
   return (
     <section className='projects' id='projects'>
         <h2 className='titlePageProjects'>Projects I've been <span className='dotColored'>working</span> on<span className='dotColored'>.</span></h2>
         <div className='projectsCont'>
           {allProjects?.map( each => 
-            <EachProject key={each} name={each.name} techs={each.technologies} image={each.image} date={each.date} deploy={each.deploy} repo={each.repo} />
+            <EachProject key={each.id} name={each.name} techs={each.technologies} image={each.image} date={each.date} deploy={each.deploy} repo={each.repo} />
           )}
         </div>
     </section>
