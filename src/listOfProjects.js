@@ -192,7 +192,7 @@ let listOfProjects = [
             },
         ],
         repo:'https://github.com/FabrizioCatanzaro/MyTinerary-front',
-        deploy: 'https://my-tinerary-team-x.vercel.app',
+        deploy: 'https://my-tinerary-lfcp.vercel.app/',
     },
     {
         id: "AmazingEvents",
