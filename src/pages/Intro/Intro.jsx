@@ -52,8 +52,8 @@ const Intro = () => {
                     <span className='textIntro anim-typewriter23'>Buenos Aires, Argentina</span>
                     <span onClick={() => openCvCont()} className='btnIntro anim-typewriter23'>{ cvCont === 'closedCont' ? 'Download CV' : `Hide options`}</span>
                     <div className={cvCont}>
-                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Luciano_Fabrizio_Catanzaro_Pfahler-Web_Developer.pdf' id='linkCv'>English CV</a>
-                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Luciano_Fabrizio_Catanzaro_Pfahler-Desarrollador_Web.pdf' id='linkCv'>Spanish CV</a>
+                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Luciano_Fabrizio_Catanzaro_Pfahler_CV_EN.pdf' id='linkCv'>English CV</a>
+                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Luciano_Fabrizio_Catanzaro_Pfahler_CV_ES.pdf' id='linkCv'>Spanish CV</a>
                     </div>
                 </div>
             </div>
