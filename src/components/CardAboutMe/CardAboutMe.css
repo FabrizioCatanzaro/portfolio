@@ -1,0 +1,4 @@
+.cardAboutMe{
+    display: flex;
+    flex-direction: column;
+}

@@ -3,7 +3,7 @@ let listOfProjects = [
         id: "Kleopatra",
         name: "Kleopatra Joyas",
         date: "APRIL 2025",
-        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-kleopatra.png?alt=media&token=21c944a0-156d-4a11-bd8a-2ad59f62e174",
+        image: "https://res.cloudinary.com/dymih4uxm/image/upload/v1773154037/kleopatra_home.png",
         technologies: [
             {
                 name: "ReactJS",
@@ -38,7 +38,7 @@ let listOfProjects = [
         id: "TeachMe",
         name: "Teach Me",
         date: "OCTOBER 2024",
-        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-teachme.png?alt=media&token=45d70d12-120a-4710-abc4-4956a50f7f5c",
+        image: "https://res.cloudinary.com/dymih4uxm/image/upload/v1773154316/teachme_home.png",
         technologies: [
             {
                 name: "SQL",
@@ -78,7 +78,7 @@ let listOfProjects = [
         id: "Salute",
         name: "Salute Drinks",
         date: "MARCH 2023",
-        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-salute.png?alt=media&token=f62f6b80-3394-4d5e-b0e0-bdab1c21eacb",
+        image: "https://res.cloudinary.com/dymih4uxm/image/upload/v1773156423/salute_home.png",
         technologies: [
             {
                 name: "MongoDB",
@@ -118,7 +118,7 @@ let listOfProjects = [
         id: "RFTC",
         name: "Retro Football Team Clothing",
         date: "DECEMBER 2022",
-        image: "https://firebasestorage.googleapis.com/v0/b/teach-me-b5889.appspot.com/o/portfolio%2Fhome-rftc.png?alt=media&token=b49dc19a-241c-488c-8521-6df23b8c4af3",
+        image: "https://res.cloudinary.com/dymih4uxm/image/upload/v1773156459/rtfc_home.png",
         technologies: [
             {
                 name: "MongoDB",
