@@ -1,8 +1,8 @@
 import React from 'react'
 import './Profile.css'
 import 'animate.css'
-import CardAboutMe from '../../components/CardAboutMe/CardAboutMe'
-import { CodeXml } from 'lucide-react'
+//import CardAboutMe from '../../components/CardAboutMe/CardAboutMe'
+//import { CodeXml } from 'lucide-react'
 
 // filepath: c:\Users\Fabry\Programacion\portfolio\src\pages\Profile\Profile.jsx
 
