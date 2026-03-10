@@ -4,6 +4,7 @@ import Projects from '../Projects/Projects'
 import Intro from '../Intro/Intro'
 import Contact from '../Contact/Contact'
 import { Toaster } from 'react-hot-toast'
+import Profile from '../Profile/Profile'
 
 export default function Home() {
 
@@ -11,6 +12,7 @@ export default function Home() {
         <div>
             <Toaster />
             <Intro />
+            <Profile />
             <AboutMe/>
             <Projects />
             <Contact />

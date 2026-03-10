@@ -1,0 +1,86 @@
+:root{
+    --background: #16161a;
+    --texto-titulo: #fffffe;
+    --texto-parrafo: #94a1b2;
+    --boton: #7f5af0;
+    --boton-texto: #fffffe;
+    --borde: #010101;
+    --resaltado: #815cf0;
+    --secundario: #72757e;
+    --terciario: #2cb67d;
+    --principal: #fffffe;
+    --fuente-titulo: 'Montserrat', sans-serif;
+    --fuente-cuerpo: 'Exo', sans-serif;
+}
+
+.profile{
+    background: var(--secundario);
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.titlePageProfile{
+    font-family: var(--fuente-titulo);
+    font-weight: bold;
+    font-size: 5rem;
+    color: var(--background);
+
+}
+
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 3rem;
+}
+
+.profileCard{
+    .cardTitle{
+        font-family: var(--fuente-titulo);
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .cardDescription{
+        font-family: var(--fuente-cuerpo);
+        text-align: justify;
+        hyphens: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .cardList{
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        li{
+            list-style-type: square;
+            gap: 1rem;
+            font-family: var(--fuente-cuerpo);
+            text-align: justify;
+            hyphens: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .profile{
+        gap: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 560px){
+
+}
