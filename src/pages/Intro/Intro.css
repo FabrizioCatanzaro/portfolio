@@ -95,8 +95,8 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20%;
-    filter: brightness(.6);
-    animation: float 6s ease-in-out infinite;
+    /* filter: brightness(.9); */
+    /* animation: float 6s ease-in-out infinite; */
     z-index: 55;
 }
 

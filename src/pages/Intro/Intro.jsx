@@ -37,6 +37,9 @@ const Intro = () => {
 
     let edadActual = calcularEdad("2000-07-11")
 
+    let cvEspanol = 'https://drive.google.com/file/d/12jWbEzdGpHvRhGFsluK4aUUNZv_FTwtm/view?usp=sharing'
+    let cvIngles = 'https://drive.google.com/file/d/1z9tV7RU3MgUVBQE5rvfld4uLDipuzJup/view?usp=sharing'
+
     return (
         <div className='intro' id='intro'>
             <div className='titlesPageAbout'>
@@ -48,12 +51,13 @@ const Intro = () => {
                     <img src='./assets/img/profile-pic.jpg' className='myPicImg' alt="It's me, Fabri" />
                 </div>
                 <div className='facts'>
+                    <span className='textIntro anim-typewriter23'>Luciano Fabrizio Catanzaro Pfahler</span>
                     <span className='textIntro anim-typewriter12'>{edadActual} years old</span>
                     <span className='textIntro anim-typewriter23'>Buenos Aires, Argentina</span>
                     <span onClick={() => openCvCont()} className='btnIntro anim-typewriter23'>{ cvCont === 'closedCont' ? 'Download CV' : `Hide options`}</span>
                     <div className={cvCont}>
-                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Luciano_Fabrizio_Catanzaro_Pfahler_CV_EN.pdf' id='linkCv'>English CV</a>
-                        <a download='CV Fabrizio Catanzaro' href='./assets/docs/Luciano_Fabrizio_Catanzaro_Pfahler_CV_ES.pdf' id='linkCv'>Spanish CV</a>
+                        <a download='CV Fabrizio Catanzaro' href={cvIngles} target='_BLANK' rel='noreferrer' id='linkCv'>English CV</a>
+                        <a download='CV Fabrizio Catanzaro' href={cvEspanol} target='_BLANK' rel='noreferrer' id='linkCv'>Spanish CV</a>
                     </div>
                 </div>
             </div>
