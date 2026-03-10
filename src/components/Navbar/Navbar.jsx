@@ -21,15 +21,15 @@ const Navbar = () => {
   return (
     <div className={colorNav}>
       <div className="logoCont">
-        <a href="#"><img src="./assets/img/logo-lfcp.png" alt="Logo" className="logo" /></a>
+        <a href="#intro"><img src="./assets/img/logo-lfcp.png" alt="Logo" className="logo" /></a>
       </div>
       <div className="seccionesNavCont">
-        <p><Link smooth to='#about-me' id="linkNav">Skills</Link></p>
+        <p><Link smooth to='#profile' id="linkNav">About me</Link></p>
         <p><Link smooth to='#projects' id="linkNav">Projects</Link></p>
         <p><Link smooth to='#contact' id="linkNav">Contact</Link></p>
       </div>
       <div className="seccionesNavResponsive">
-        <Link smooth to='#about-me' id="linkNav"><i className='bx bxs-terminal'></i></Link>
+        <Link smooth to='#profile' id="linkNav"><i className='bx bxs-terminal'></i></Link>
         <Link smooth to='#projects' id="linkNav"><i className='bx bxs-briefcase' ></i></Link>
         <Link smooth to='#contact' id="linkNav"><i className='bx bxs-comment-dots' ></i></Link>
       </div>
